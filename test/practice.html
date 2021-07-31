@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name = 'babar';
+        console.log(name);
+        var a = 12;
+        var b = 10;
+
+        a += 12;
+        console.log(a);
+        var firstname = 'babar ali';
+       var firstLetteroffirstname = firstname[0];
+       console.log(firstLetteroffirstname);
+       var first = 'jello world';
+       first ='h';
+       console.log(first)
+       var lastName ='farhan';
+       var lastchar = lastName[lastName.length - 1];
+       console.log(lastchar);
+       var arry = ['john', 'adam','sara']
+       var conct = arry[0] + ' and ' + arry[1] + ' loves their daughter' + arry[2];
+       console.log(conct)
+       arry.push('babar')
+       console.log(arry)
+       arry.pop()
+       console.log(arry)
+       arry.shift();
+       console.log(arry)
+       function myfirstfunction(a,b,c){
+           console.log(a,b)
+       }
+       myfirstfunction('babar','ali',5)
+
+       function oroperater(val){
+           if(val>20 || val<10){
+              return 'true';
+           }
+           return 'false';
+       }
+       console.log(oroperater(11))
+       function check (val){
+           if(val<5){
+               return 'less than 5'
+           }
+           else if(val < 10){
+               return 'less than 10'
+           }
+           else{
+               return 'grater'
+           }
+       }
+       console.log(check(11))
+       function switchcase(val){
+           switch (val) {
+               case 1:
+                   answer = 'alpha'
+                   break;
+           
+               case 2:
+                   answer = 'beta'
+                   break;
+           }
+           return answer;
+       }
+      document.write(switchcase(1))
+
+
+    </script>
+    <p>
+        lo
+    </p>
+</body>
+</html>
